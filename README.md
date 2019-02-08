@@ -1,4 +1,5 @@
 # Docker-trial-project
+## Set up Docker environment
 First enter the poject directory
 
 ```
@@ -29,3 +30,9 @@ Setup the express environment
 docker exec react backend
 ```
 ##### now edit the code in ~/reactapp
+
+## hot dev commands
+to find the node js port usage
+```
+ps -ef | grep node
+```
