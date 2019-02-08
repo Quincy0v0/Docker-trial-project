@@ -17,7 +17,7 @@ Run a Docker Container.
 docker run \
       -p 127.0.0.1:3000:3000 \
       -p 127.0.0.1:3001:3001 \
-      -v ~/reactapp:/usr/src/app/react-app/ \
+      -v ~/reactapp:/usr/src/app/ \
       -d --name react react-app
 ```
 Setup the react environment
