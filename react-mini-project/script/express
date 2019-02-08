@@ -1,0 +1,12 @@
+#!/bin/bash
+# create express app
+npm install express-generator -g
+
+express --view=pug backend
+pushd backend
+
+# start app
+npm install
+npm start
+popd
+# Now you can use the browser and see the webpage on http://localhost:3000/
