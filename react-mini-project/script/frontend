@@ -1,10 +1,10 @@
 #!/bin/bash
 # create-react-app
 npm install -g create-react-app
-create-react-app react-app
+create-react-app frontend
 
 # start app
-pushd react-app
+pushd frontend
 npm start
 popd
 # Now you can use the browser and see the webpage on http://localhost:3000/

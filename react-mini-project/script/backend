@@ -7,6 +7,6 @@ pushd backend
 
 # start app
 npm install
-npm start
+PORT=3001 npm start 
 popd
 # Now you can use the browser and see the webpage on http://localhost:3000/
