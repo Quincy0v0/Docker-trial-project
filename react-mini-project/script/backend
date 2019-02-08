@@ -2,7 +2,7 @@
 # create express app
 npm install express-generator -g
 
-express --view=pug backend
+express backend
 pushd backend
 
 # start app
