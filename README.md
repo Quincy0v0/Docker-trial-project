@@ -22,10 +22,10 @@ docker run \
 ```
 Setup the react environment
 ```
-docker exec react frontend
+docker exec react react
 ```
 Setup the express environment
 ```
-docker exec react backend
+docker exec react express
 ```
 ##### now edit the code in ~/reactapp
