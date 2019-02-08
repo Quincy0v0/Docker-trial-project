@@ -5,7 +5,7 @@ Build the react app Docker Image with tag 'react-app'
 docker build -t react-app .
 ```
 Run a Docker Container.
-```
+```bash
 # Map the port 3000 and 3001. 
 # Make a volume for the code directory. 
 # Tag the Container with 'react'
