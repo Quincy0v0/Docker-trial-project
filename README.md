@@ -11,7 +11,7 @@ docker build -t react-app .
 ```
 Run a Docker Container.
 ```bash
-# B the port 3000 and 3001. 
+# Bind the port 3000 and 3001. 
 # Make a volume for the code directory. 
 # Tag the Container with 'react'
 docker run \
