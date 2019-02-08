@@ -1,4 +1,9 @@
 # Docker-trial-project
+First enter the poject directory
+
+```
+cd react-mini-project
+```
 
 Build the react app Docker Image with tag 'react-app'
 ```
